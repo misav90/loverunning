@@ -37,13 +37,15 @@ h2 {
 
 }
 
-#menu, #logo{
+#menu,
+#logo {
     line-height: 75px;
 }
 
 #menu a:hover {
-border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
+
 #menu li {
     list-style-type: none;
     margin-right: 30px;
@@ -56,11 +58,33 @@ border-bottom: 1px solid #3a3a3a;
     color: inherit;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a
 }
-#heroimage{
+
+#heroimage {
     height: 600px;
-    width:100%;
+    width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow:hidden;
+
+    
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
