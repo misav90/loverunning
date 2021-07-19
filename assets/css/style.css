@@ -15,8 +15,7 @@ body {
 
 /* headings and logo*/
 
-h1,
-h2 {
+h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -61,7 +60,7 @@ h2 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a
+    border-bottom: 1px solid #3a3a3a;
 }
 
 #heroimage {
@@ -96,7 +95,7 @@ h2 {
 }
 #cover-text{
     font-size: 130%;
-    font-family: Owsald;
+    font-family: Owsald, sans-serif;
     text-transform:uppercase;
     letter-spacing: 4px;
 
@@ -119,11 +118,15 @@ h2 {
     height: 600px;
 
 }
+
+
+
+
 #left-about{
-padding-top: 30 px;
+padding-top: 30px;
 width: 33%;
 float: left;
-background-color:blue
+
 }
 
 #right-about{
@@ -134,9 +137,22 @@ background-color:blue
 
 }
 #center-about{
-    padding-top: 30 px;
+    
     width: 33%;
     margin: 0 auto;
     background-color:brown
 
+}
+
+hr{
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px, 0;
+}
+.left-about-heading{
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
 }
