@@ -242,7 +242,7 @@ footer{
 
     @media screen and (max-width:1200px) {
         #club-ethos {
-            width:  65%;
+            width:  90%;
             height: 1200px;
             margin: 0 auto;
         }
@@ -264,6 +264,12 @@ footer{
         }
         hr{
             display: none;
+        }
+        #times > div{
+            width: 100%;
+            clear:both;
+            height:150px;
+            padding: 0;
         }
     }
 
